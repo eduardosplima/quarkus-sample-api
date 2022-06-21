@@ -1,0 +1,12 @@
+quarkus:
+  hibernate-orm:
+    database:
+      generation: drop-and-create
+  log:
+    level: INFO
+    category:
+      "br.gov.rj.detran":
+        level: DEBUG
+  hibernate-orm:
+    log:
+      sql: true

@@ -1,0 +1,18 @@
+quarkus:
+  hibernate-orm:
+    database:
+      # Mudar para none em caso de usar a base do cliente rsrsrs
+      generation: drop-and-create
+  # datasource:
+  #   jdbc:
+  #     url: xxx
+  #   username: xxx
+  #   password: xxx
+  log:
+    level: INFO
+    category:
+      "br.gov.rj.detran":
+        level: DEBUG
+  hibernate-orm:
+    log:
+      sql: true

@@ -1,0 +1,11 @@
+quarkus:
+  banner:
+    enabled: false
+
+mp:
+  openapi:
+    extensions:
+      smallrye:
+        info:
+          title: Usuário API
+          version: 1.0.0
